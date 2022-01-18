@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    height: 25rem;
+
+    &__img{
+        width: 100%;
+        height: 25rem;
+    }
+}
+
+@include phone-view{
+
+    .header__img{
+        width: 90%;
+        height: 12.5rem;
+    }
+}

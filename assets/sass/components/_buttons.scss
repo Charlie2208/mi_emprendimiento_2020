@@ -1,0 +1,26 @@
+    //Components
+
+
+.btn{
+    width: auto;
+    height: auto;
+    background-color: $tangerine;
+    color: $charcoal;
+    border: 1px solid $white;
+    border-radius: 10%;
+    margin-top: 0.5rem;
+    
+    
+}
+
+.btn:hover{
+    width: 70px;
+    height: 30px;
+    background-color: $white;
+    color: $charcoal;
+    border: 1px solid $white;
+    border-radius: 10%;
+}
+
+
+

@@ -1,0 +1,104 @@
+.aside{
+    border: 1px solid $black;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    // display: flex;
+    // justify-content: center;
+    padding-top: 1rem;
+    // // align-items: center;
+
+    &__{
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+
+    }
+
+    &__top-img{ 
+        width: 200px;
+        height: auto;
+        border-radius: 100%;
+        border: 1px solid $black;
+      
+
+    }
+
+    &__top-h3{
+        text-transform: uppercase;
+    }
+
+    &__top-iconos{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    }
+
+    &__top-image{
+        
+            display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    &__top-h3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    &__bottom-title{
+        width: 95%;
+        margin: 0 auto;
+        background-color: $sable;
+        color: $white;
+        text-align: center;
+    }
+
+    &__bottom-a{
+        text-decoration: none;
+    }
+
+    &__aside__bottom-svg{
+        width: 200px;
+    }
+    
+}
+
+.fab{
+    margin-right: 0.3rem;
+    color: $black;
+    
+}
+
+//SVG
+.div_svg{
+    display: flex;
+    justify-content: center;
+}
+.svg{
+    width: 300px;
+    
+}
+
+.patch__a{
+    animation: 3s traslate infinite linear alternate;
+}
+
+.patch__b{
+    animation: 1.9s traslate infinite linear alternate;
+}
+
+.patch__c{
+    animation: 1.9s traslate infinite linear alternate;
+}
+
+.patch__red{
+    transform: rotate(0deg);
+    -webkit-animation: 2s rotate infinite linear;
+    animation: 2s rotate infinite linear;
+    transform-origin: 100% 100%;
+}
+
