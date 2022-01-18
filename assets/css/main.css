@@ -865,6 +865,7 @@ template {
     justify-content: center;
     align-items: center;
     margin-left: 0;
+    margin: 0;
   }
 
   .footer__link-items {
@@ -872,6 +873,7 @@ template {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
   .footer__componentes {
