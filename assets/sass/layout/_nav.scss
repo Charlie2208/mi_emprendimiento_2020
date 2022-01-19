@@ -40,6 +40,8 @@
 
     &__item--bar{
         margin-right: 30px;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
    
 
