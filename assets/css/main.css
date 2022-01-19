@@ -710,6 +710,10 @@ template {
   padding-bottom: 1rem;
 }
 
+.row-main {
+  padding-bottom: 1rem;
+}
+
 .top__img {
   width: 96%;
   height: auto;
